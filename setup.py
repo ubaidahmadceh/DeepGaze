@@ -42,7 +42,7 @@ setup(
     install_requires=[
         'boltons',
         'numpy',
-        'torch',
+        'torch @ https://download.pytorch.org/whl/cpu/torch-1.10.0%2Bcpu-cp39-cp39-linux_x86_64.whl',
         'torchvision',
         'setuptools',
     ],
